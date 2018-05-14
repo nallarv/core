@@ -25,10 +25,12 @@
     "@angular/material": "^5.2.4",
     "rxjs": "^5.5.2"
   },
-  "ngPackage": {
-    "dest": "../../dist/core",
-    "lib": {
-      "entryFile": "src/public_api.ts"
-    }
+  "main": "bundles/ngx-material-keyboard-core.umd.js",
+  "module": "esm5/ngx-material-keyboard-core.js",
+  "es2015": "esm2015/ngx-material-keyboard-core.js",
+  "typings": "ngx-material-keyboard-core.d.ts",
+  "metadata": "ngx-material-keyboard-core.metadata.json",
+  "dependencies": {
+    "tslib": "^1.7.1"
   }
 }
